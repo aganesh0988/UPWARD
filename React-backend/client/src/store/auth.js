@@ -1,75 +1,68 @@
-const UPDATE_EMAIL_VALUE = 'lecture/auth/UPDATE_EMAIL_VALUE';
-const UPDATE_PASSWORD_VALUE = 'lecture/auth/UPDATE_PASSWORD_VALUE';
-const UPDATE_TOKEN_VALUE = 'lecture/auth/UPDATE_TOKEN_VALUE';
+import Cookies from "js-cookie";
 
-const updateEmailValue = value => ({ type: UPDATE_EMAIL_VALUE, value });
-const updatePasswordValue = value => ({ type: UPDATE_PASSWORD_VALUE, value });
-const updateTokenValue = value => ({ type: UPDATE_TOKEN_VALUE, value });
+const SET_USER = "SET_USER";
+const REMOVE_USER = "REMOVE_USER";
 
-export const actions = {
-  updateEmailValue,
-  updatePasswordValue,
-  updateTokenValue,
-};
+export const setUser = (user) => {
+  return {
+    type: SET_USER,
+    user
+  }
+}
 
-const tryLogin = () => {
-  return async (dispatch, getState) => {
-    const { auth: { email, password } } = getState();
-    const response = await fetch('http://localhost:5000/api/session', {
-      method: 'PUT',
+export const removeUser = () => {
+  return {
+    type: REMOVE_USER
+  }
+}
+
+export const login = (email, password) => {
+  return async dispatch => {
+    const response = await fetch(`/api/sessions`, {
+      method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password }),
     });
-    try {
-      if (response.status >= 200 && response.status < 400) {
-        const data = await response.json();
-        dispatch(updateTokenValue(data.token));
-        window.localStorage.setItem('REDUX_LECTURE_AUTH_TOKEN', data.token);
-      } else {
-        console.error('Bad response');
-      }
-    } catch (e) {
-      console.error(e);
+
+    if (response.ok) {
+      const { user } = await response.json();
+      dispatch(setUser(user));
     }
   };
 };
 
-export const thunks = {
-  tryLogin,
-};
-
-const token = window.localStorage.getItem('REDUX_LECTURE_AUTH_TOKEN');
-
-const initialState = {
-  token,
-  email: "",
-  password: ""
-}
-
-function reducer(state = initialState, action) {
-  switch (action.type) {
-    case UPDATE_EMAIL_VALUE: {
-      return {
-        ...state,
-        email: action.value,
-      };
-    }
-    case UPDATE_PASSWORD_VALUE: {
-      return {
-        ...state,
-        password: action.value,
-      };
-    }
-    case UPDATE_TOKEN_VALUE: {
-      return {
-        ...state,
-        token: action.value,
-      };
-    }
-    default: {
-      return state;
-    }
+export const logout = () => async dispatch => {
+  const res = await fetch('/api/sessions', {
+    method: "delete"
+  });
+  if (res.ok) {
+    dispatch(removeUser());
   }
 }
 
-export default reducer;
+function loadUser() {
+  const authToken = Cookies.get("token");
+  if (authToken) {
+    try {
+      const payload = authToken.split(".")[1];
+      const decodedPayload = atob(payload);
+      const payloadObj = JSON.parse(decodedPayload);
+      const { data } = payloadObj;
+      return data;
+    } catch (e) {
+      Cookies.remove("token");
+    }
+  }
+  return {};
+}
+
+export default function reducer(state = loadUser(), action) {
+  switch (action.type) {
+    case SET_USER:
+      return action.user;
+    case REMOVE_USER:
+      return {};
+    default:
+      return state;
+  }
+}

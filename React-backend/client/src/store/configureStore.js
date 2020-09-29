@@ -1,12 +1,12 @@
 import { createStore, applyMiddleware, combineReducers, compose } from 'redux';
 import thunk from 'redux-thunk';
-import movies from './movies';//NEED TO CHANGE TO PRODUCTS
+import products from './products';
 import auth from './auth';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const reducer = combineReducers({
-  movies,
+  products,
   auth,
 });
 
