@@ -38,7 +38,7 @@
 
 
 import React, { useState, useContext } from 'react';
-import { Redirect } from 'react-router-dom';
+//import { Redirect } from 'react-router-dom';
 //import { baseUrl } from ‘./config’;
 import { UserContext } from './UserContext';
 const LoginPanel = (props) => {

@@ -6,7 +6,9 @@ import { Provider } from 'react-redux';
 import configureStore from './store/configureStore';
 //import { thunks } from './store/products'; //NEED TO CHANGE TO PRODUCTS
 
-const store = configureStore();
+//const token = window.localStorage.getItem('PRODUCTS_TOKEN')
+
+const store = configureStore(/*{ auth: { token } }*/);
 
 //store.dispatch(thunks.getProducts()); //NEED TO CHANGE TO PRODUCTS
 
