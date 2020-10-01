@@ -2,7 +2,7 @@ import React from 'react';
 import { getProducts } from '../store/products';
 import { connect } from "react-redux";
 import ProductsDisplayed from './ProductsDisplayed';
-import './Products.css';
+import './ProductsDisplayed.css';
 
 
 class Products extends React.Component {

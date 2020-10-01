@@ -11,14 +11,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-items: center;
   flex-wrap: wrap;
   flex-direction: row;
 }
 .product-img-img{
-  display: flex;
   height: 100%;
   width: 100%;
-  flex-wrap: wrap;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -31,6 +30,7 @@
   flex-wrap: wrap;
   font-family: Arial, sans-serif;
   flex-direction: column;
+  height: 80px;
 }
 .product-img-name > *{
   font-size: smaller;
