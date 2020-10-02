@@ -37,6 +37,10 @@
   font-family: Arial, sans-serif;
 }
 
+.product-img-name__designer{
+  letter-spacing: 1px;
+}
+
 .divBox{
   display: flex;
 }
