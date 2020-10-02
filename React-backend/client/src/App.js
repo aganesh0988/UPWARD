@@ -6,6 +6,8 @@ import UserList from './components/UsersList';
 import Products from './components/Products';
 import SignUp from './components/SignUp';
 import Navigation from './components/Navigation';
+import Categories from './components/Categories';
+//import SideCategories from './components/SideCategories';
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
                 </Route>
                 <Route path="/login" component={LoginPanel}></Route>
                 <Route path="/signup" component={SignUp}></Route>
+                <Route path="/products/:categoryId" component={Products}></Route>
+                <Route path='/categories' component={Categories}></Route>
                 <Route path="/" component={Products}></Route>
             </Switch>
         </BrowserRouter>

@@ -5,11 +5,14 @@ const router = express.Router();
 const { Product, Designer, Category } = require('../../db/models');
 
 
+
 router.get('/', asyncHandler(async function (_req, res) {
-  const product = await Product.findAll(
-    { include: [Designer, Category] }
+  const category = await Category.findAll(
+    //{ include: [Designer, Product] }
   );
-  res.json(product);
+  res.json(category);
 }));
+
+
 
 module.exports = router;

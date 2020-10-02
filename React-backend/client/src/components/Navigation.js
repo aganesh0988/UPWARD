@@ -12,6 +12,7 @@ const Navigation = props =>
     <NavLink to="/users" activeClassName="active">USERS</NavLink>
     <NavLink to="/login" activeClassName="active">LOG IN</NavLink>
     <NavLink to="/signup" activeClassName="active">SIGN UP</NavLink>
+    <NavLink to='/categories' activeClassName="active">CATEGORIES</NavLink>
   </header>
   ;
 

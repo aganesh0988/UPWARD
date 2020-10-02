@@ -14,8 +14,9 @@ const ProductsDisplayed = (props) => {
           style={{ backgroundImage: `url(/images/${product.image})` }}>
         </div>
         <div className='product-img-name'>
-          <h4 className='product-img-name__designer'>{product.Designer.name.toUpperCase()}</h4>
-          <h3>{product.name}</h3>
+          <h3 className='product-img-name__designer'>{product.Designer.name.toUpperCase()}</h3>
+          <h4 className='product-img-name__name'>{product.name}</h4>
+          <div>${product.price}</div>
         </div>
       </div>
     </div >

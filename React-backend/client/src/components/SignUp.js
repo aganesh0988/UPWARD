@@ -30,7 +30,6 @@ function SignUp(props) {
         email,
         password,
         username,
-        // user,
       }),
     });
     if (response.ok) {
