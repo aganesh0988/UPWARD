@@ -60,12 +60,6 @@
   position: fixed;
 }
 
-/* .categories-side-panel > * {
-  text-decoration: none;
-  text-decoration-line: none;
-  color: black;
-} */
-
 .categories-side-panel__category > *{
   text-decoration: none;
   text-decoration-line: none;
