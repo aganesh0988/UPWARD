@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import './SignUp.css';
 // import { useDispatch, useSelector } from “react-redux”;
 // import { userActions } from “../_actions”;
 //github.com/cornflourblue/react-hooks-redux-registration-login-example/blob/master/src/_actions/user.actions.js
@@ -38,7 +39,7 @@ function SignUp(props) {
   };
   return (
     <div className="col-lg-8 offset-lg-2">
-      <h2>Register</h2>
+      <h2>Sign Up</h2>
       <form name="form" className="signup-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Email</label>
@@ -87,7 +88,7 @@ function SignUp(props) {
             <div className="invalid-feedback">Password is required</div>
           )}
         </div>
-        <div className="form-group">
+        <div className="form-group-btn">
           <button className="btn btn-primary">
             {
               <span className="spinner-border spinner-border-sm mr-1"></span>

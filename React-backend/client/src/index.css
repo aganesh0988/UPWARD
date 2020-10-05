@@ -1,5 +1,7 @@
 /* TODO Add site wide styles */
-
+/* html{
+  scroll-behavior: smooth;
+} */
 .navigation-container{
   display: flex;
   flex-direction: row;
@@ -13,7 +15,7 @@
   list-style-type: none;
   border-bottom: 30px solid black;
   border-top: 30px solid black;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 /* .navigation-container__links{

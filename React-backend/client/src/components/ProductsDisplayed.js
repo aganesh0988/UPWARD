@@ -7,7 +7,6 @@ const ProductsDisplayed = (props) => {
   return (
     <div className='product-img-wrapper'>
       <div className='product-img-container'>
-
         <div
           alt={product.name}
           className='product-img-img'
