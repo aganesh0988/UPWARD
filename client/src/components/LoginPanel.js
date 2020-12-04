@@ -3,6 +3,8 @@ import React, { useState, useContext } from 'react';
 //import { Redirect } from 'react-router-dom';
 //import { baseUrl } from ‘./config’;
 import { UserContext } from './UserContext';
+import './LoginPanel.css';
+
 const LoginPanel = (props) => {
   const { login } = useContext(UserContext);
   const [email, setEmail] = useState('demo@example.com');
@@ -26,7 +28,7 @@ const LoginPanel = (props) => {
   const updateEmail = (e) => setEmail(e.target.value);
   const updatePassword = (e) => setPassword(e.target.value);
   return (
-    <main className='centered middled'>
+    <main className='login-form-container'>
       <form onSubmit={handleSubmit}>
         <input type='text' placeholder='Email' value={email} onChange={updateEmail} />
         <input type='password' placeholder='Password' value={password} onChange={updatePassword} />
