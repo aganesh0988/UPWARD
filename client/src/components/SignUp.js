@@ -38,7 +38,7 @@ function SignUp(props) {
     }
   };
   return (
-    <div className="col-lg-8 offset-lg-2">
+    <div className="signup-form-container">
       <h2>Sign Up</h2>
       <form name="form" className="signup-form" onSubmit={handleSubmit}>
         <div className="form-group">
