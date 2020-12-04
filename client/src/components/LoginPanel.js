@@ -28,12 +28,23 @@ const LoginPanel = (props) => {
   const updateEmail = (e) => setEmail(e.target.value);
   const updatePassword = (e) => setPassword(e.target.value);
   return (
-    <main className='login-form-container'>
-      <form onSubmit={handleSubmit}>
-        <input type='text' placeholder='Email' value={email} onChange={updateEmail} />
-        <input type='password' placeholder='Password' value={password} onChange={updatePassword} />
-        <button type='submit'>Login</button>
-      </form>
+    <main className='login-form-wrapper'>
+      <div className='login-form-container'>
+        <h2>Log In</h2>
+        <form onSubmit={handleSubmit}>
+          <div>
+            <label>Email</label>
+            <input type='text' placeholder='Email' value={email} onChange={updateEmail} />
+          </div>
+          <div>
+            <label>Password</label>
+            <input type='password' placeholder='Password' value={password} onChange={updatePassword} />
+          </div>
+          <div>
+            <button type='submit'>Login</button>
+          </div>
+        </form>
+      </div>
     </main>
   );
 };
