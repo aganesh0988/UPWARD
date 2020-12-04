@@ -94,7 +94,7 @@ function SignUp(props) {
               {
                 <span className="spinner-border spinner-border-sm mr-1"></span>
               }
-            Register
+            Sign Up
           </button>
             <Link to="/login" className="btn btn-link">
               Cancel

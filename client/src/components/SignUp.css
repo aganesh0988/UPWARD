@@ -31,10 +31,12 @@ form.signup-form{
 }
 
 div.form-group{
+  display: flex;
   margin-top: 20px;
 }
 
 .form-group-btn{
-display: flex;
-justify-content: flex-end;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
