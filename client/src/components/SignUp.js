@@ -34,7 +34,7 @@ function SignUp(props) {
       }),
     });
     if (response.ok) {
-      props.history.push("/cases");
+      props.history.push("/");
     }
   };
   return (
