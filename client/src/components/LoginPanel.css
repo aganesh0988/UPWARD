@@ -14,3 +14,14 @@
     align-items: center;
     width: 30%;
 }
+
+form.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+  }
+
+  .form-group-btn{
+
+  }

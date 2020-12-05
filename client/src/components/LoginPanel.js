@@ -1,6 +1,6 @@
 
 import React, { useState, useContext } from 'react';
-//import { Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 //import { baseUrl } from ‘./config’;
 import { UserContext } from './UserContext';
 import './LoginPanel.css';
@@ -31,17 +31,20 @@ const LoginPanel = (props) => {
     <main className='login-form-wrapper'>
       <div className='login-form-container'>
         <h2>Log In</h2>
-        <form onSubmit={handleSubmit}>
-          <div>
+        <form className='login-form' onSubmit={handleSubmit}>
+          <div className="form-group">
             <label>Email</label>
             <input type='text' placeholder='Email' value={email} onChange={updateEmail} />
           </div>
-          <div>
+          <div className="form-group">
             <label>Password</label>
             <input type='password' placeholder='Password' value={password} onChange={updatePassword} />
           </div>
-          <div>
-            <button type='submit'>Login</button>
+          <div className="form-group-btn">
+            <button className="btn btn-primary" type='submit'>Login</button>
+            <Link to="/signup" className="btn btn-link">
+              Need to sign up?
+          </Link>
           </div>
         </form>
       </div>

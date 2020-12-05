@@ -97,7 +97,7 @@ function SignUp(props) {
             Sign Up
           </button>
             <Link to="/login" className="btn btn-link">
-              Cancel
+              Already have an account?
           </Link>
           </div>
         </form>
