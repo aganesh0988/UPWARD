@@ -48,11 +48,16 @@ div.form-group{
 button.btn.btn-primary{
   width: 95px;
   height: 30px;
+  background-color: hotpink;
+  border-radius: 5%;
+  color: white;
+  font-weight: 700;
 }
 
 button.btn.btn-primary:hover{
   cursor: pointer;
   color: hotpink;
+  background-color: white;
 }
 
 a.btn.btn-link{
