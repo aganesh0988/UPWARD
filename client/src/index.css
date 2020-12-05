@@ -46,10 +46,19 @@ header > *{
 .footer-container{
   position: fixed;
   bottom: 0;
-  margin: 10px;
+  margin: auto;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+  background-color: white;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+
 }
 
 .footer-container__elements>*{
   display: flex;
   justify-content: center;
+  margin: 5px 0
 }
