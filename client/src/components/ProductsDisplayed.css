@@ -5,13 +5,15 @@
   flex-direction: row;
 } */
 
-/* .product-img-wrapper{
-  height: 660px;
+.product-img-wrapper{
+  height: 600px;
   width: 250px;
-} */
+}
+
+
 
 .product-img-container{
-  height: 660px;
+  height: 500px;
   width: 250px;
   display: flex;
   align-items: center;
@@ -19,11 +21,12 @@
   justify-items: center;
   flex-wrap: wrap;
   flex-direction: row;
+  margin-top: 50px;
 }
 .product-img-img{
   height: 100%;
   width: 100%;
-  background-size: contain;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
