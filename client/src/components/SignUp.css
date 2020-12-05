@@ -52,21 +52,21 @@ button.btn.btn-primary{
 
 button.btn.btn-primary:hover{
   cursor: pointer;
-  color: red;
+  color: hotpink;
 }
 
 a.btn.btn-link{
-  color: blue;
+  color: hotpink;
   text-decoration: none;
   margin: 20px 0;
 }
 
 a.btn.btn-link:visited:link:active{
-  color: blue;
+  color: hotpink;
   text-decoration: none;
 }
 a.btn.btn-link:hover{
   cursor: pointer;
-  color: red;
+  color:hotpink;
   text-decoration: none;
 }
