@@ -5,9 +5,11 @@ import '../index.css';
 
 const Navigation = props =>
   <header className='navigation-container'>
-    <img
-      alt='UpwardLogo'
-      className='UpwardLogo' src='/images/UPWARDLogo.jpg' />
+    <a href='/'>
+      <img
+        alt='UpwardLogo'
+        className='UpwardLogo' src='/images/UPWARDLogo.jpg' />
+    </a>
     <NavLink to="/" activeClassName="active">HOME</NavLink>
     {/* <NavLink to="/users" activeClassName="active">USERS</NavLink> */}
     <NavLink to="/login" activeClassName="active">LOG IN</NavLink>
