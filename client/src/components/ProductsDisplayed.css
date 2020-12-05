@@ -8,6 +8,7 @@
 .product-img-wrapper{
   height: 600px;
   width: 250px;
+  margin-bottom: 40px;
 }
 
 
@@ -80,4 +81,11 @@
   color: black;
   font-family: sans-serif;
   margin-top: 15px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.categories-side-panel__category>*:hover{
+  cursor: pointer;
+  color: hotpink;
 }
