@@ -7,6 +7,7 @@ import Products from './components/Products';
 import SignUp from './components/SignUp';
 import Navigation from './components/Navigation';
 import Categories from './components/Categories';
+import Footer from './components/Footer';
 //import SideCategories from './components/SideCategories';
 
 
@@ -25,6 +26,7 @@ function App() {
                 <Route path='/categories' component={Categories}></Route>
                 <Route path="/" component={Products}></Route>
             </Switch>
+            <Footer />
         </BrowserRouter>
     );
 }

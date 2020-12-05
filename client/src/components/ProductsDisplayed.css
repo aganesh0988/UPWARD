@@ -7,7 +7,7 @@
 
 .product-img-wrapper{
   height: 600px;
-  width: 250px;
+  width: 280px;
   margin-bottom: 40px;
 }
 
@@ -15,7 +15,7 @@
 
 .product-img-container{
   height: 500px;
-  width: 250px;
+  width: 280px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,6 +62,7 @@
   flex-wrap: wrap;
   position: absolute;
   left: 250px;
+  margin-bottom: 150px;
 }
 
 #root{

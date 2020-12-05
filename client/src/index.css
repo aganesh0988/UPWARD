@@ -42,3 +42,14 @@ header > *{
   text-decoration-line: none;
   color: black;
 }
+
+.footer-container{
+  position: fixed;
+  bottom: 0;
+  margin: 10px;
+}
+
+.footer-container__elements>*{
+  display: flex;
+  justify-content: center;
+}
