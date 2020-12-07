@@ -7,6 +7,7 @@ import Products from './components/Products';
 import SignUp from './components/SignUp';
 import Navigation from './components/Navigation';
 import Categories from './components/Categories';
+import ProductDetail from './components/ProductDetail';
 import Footer from './components/Footer';
 //import SideCategories from './components/SideCategories';
 
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/login" component={LoginPanel}></Route>
                 <Route path="/signup" component={SignUp}></Route>
                 <Route path="/products/:categoryId" component={Products}></Route>
+                <Route path="/products/:id" component={ProductDetail} />
                 <Route path='/categories' component={Categories}></Route>
                 <Route path="/" exact={true} component={Products}></Route>
             </Switch>
