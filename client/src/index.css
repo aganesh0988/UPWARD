@@ -57,8 +57,9 @@ header > *{
 
 }
 
-.footer-container__elements>*{
+.footer-container__elements{
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  margin: 5px 0
+  align-items: center;
 }
