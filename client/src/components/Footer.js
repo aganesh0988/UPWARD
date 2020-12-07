@@ -8,14 +8,16 @@ const Footer = props => {
     return (
         <footer className="footer-container">
             <div className="footer-container__elements">
-                <h4>Designed by Andrea Jackson</h4>
-                <a>
+                <a className="footer-container__elements-icons">
+                    <h4>Designed by Andrea Jackson</h4>
+                </a>
+                <a className="footer-container__elements-icons">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
-                <a>
+                <a className="footer-container__elements-icons">
                     <FontAwesomeIcon icon={faAngellist} />
                 </a>
-                <a>
+                <a className="footer-container__elements-icons">
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
             </div>

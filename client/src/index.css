@@ -50,8 +50,9 @@ header > *{
   width: 100%;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
   letter-spacing: 1.5px;
-  background-color: white;
+  background-color:black;
   border-top: 5px solid black;
   border-bottom: 5px solid black;
 
@@ -62,4 +63,8 @@ header > *{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.footer-container__elements-icons>*{
+  margin: 2px 10px;
 }
