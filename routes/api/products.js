@@ -12,4 +12,9 @@ router.get('/', asyncHandler(async function (_req, res) {
   res.json(product);
 }));
 
+router.get('/:id', asyncHandler(async function (req, res) {
+  const productDetail = await Product.one(req.params.id);
+  res.json(productDetail);
+}));
+
 module.exports = router;
