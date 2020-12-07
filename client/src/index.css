@@ -73,8 +73,8 @@ header > *{
   align-items: center;
 }
 
-.footer-container__elements>a>h4{
-  margin: 2px 10px;
+.footer-container__elements>a>h5{
+  margin: 5px 10px;
 }
 
 a.footer-container__elements-icons{

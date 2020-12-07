@@ -9,7 +9,7 @@ const Footer = props => {
         <footer className="footer-container">
             <div className="footer-container__elements">
                 <a className="footer-container__elements-icons" href="https://andreagjackson.com/">
-                    <h4>Designed & Developed by Andrea Jackson</h4>
+                    <h5>Designed & Developed by Andrea Jackson</h5>
                 </a>
                 <a className="footer-container__elements-icons" href="https://www.linkedin.com/in/andrea-jackson1/">
                     <FontAwesomeIcon icon={faLinkedin} />
