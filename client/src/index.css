@@ -66,6 +66,20 @@ header > *{
   align-items: center;
 }
 
-.footer-container__elements-icons>*{
+.footer-container__elements>a>h4{
   margin: 2px 10px;
+}
+
+a.footer-container__elements-icons{
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+a.footer-container__elements-icons:link{
+  text-decoration: none;
+}
+
+a.footer-container__elements-icons:hover{
+  color: hotpink;
 }
