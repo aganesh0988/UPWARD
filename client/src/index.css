@@ -2,6 +2,10 @@
 /* html{
   scroll-behavior: smooth;
 } */
+body{
+  width: 100%;
+}
+
 .navigation-container{
   display: flex;
   flex-direction: row;
