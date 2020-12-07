@@ -8,16 +8,16 @@ const Footer = props => {
     return (
         <footer className="footer-container">
             <div className="footer-container__elements">
-                <a className="footer-container__elements-icons">
+                <a className="footer-container__elements-icons" href="https://andreagjackson.com/">
                     <h4>Designed by Andrea Jackson</h4>
                 </a>
-                <a className="footer-container__elements-icons">
+                <a className="footer-container__elements-icons" href="https://www.linkedin.com/in/andrea-jackson1/">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
-                <a className="footer-container__elements-icons">
+                <a className="footer-container__elements-icons" href="https://angel.co/u/andrea-jackson-13">
                     <FontAwesomeIcon icon={faAngellist} />
                 </a>
-                <a className="footer-container__elements-icons">
+                <a className="footer-container__elements-icons" href="https://github.com/aganesh0988">
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
             </div>
