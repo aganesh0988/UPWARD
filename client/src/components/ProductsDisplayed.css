@@ -6,7 +6,7 @@
 } */
 
 .product-img-wrapper{
-  height: 600px;
+  height: 440px;
   width: 280px;
   margin-bottom: 40px;
 }
@@ -14,7 +14,7 @@
 
 
 .product-img-container{
-  height: 500px;
+  height: 400px;
   width: 280px;
   display: flex;
   align-items: center;

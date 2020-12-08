@@ -195,6 +195,48 @@ module.exports = {
         Raw cut hem.`,
         image: 'nklstfd.png', price: 245, size: 'xs | s | m | l', review: '', createdAt: new Date(), updatedAt: new Date()
       },
+      {
+        name: 'XS Hourglass Top Handle Bag', designerId: 20, categoryId: 3,
+        description: `Shiny croc embossed metallic leather with leather lining and antique gold-tone hardware.
+        Made in Italy.
+        Measures approx 7.5"W x 4.75"H x 3"D.
+        Top handle measures approx 9" in length with a 3" drop.`,
+        image: 'bxshthb.png', price: 1890, size: 'One Size', review: '', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Valentino Garavani Small VSling Shoulder Bag', designerId: 3, categoryId: 3,
+        description: `Genuine leather with leather lining and antique gold-tone hardware.
+        Made in Italy.
+        Measures approx 7"W x 5.5"H x 3"D.
+        Convertible shoulder strap measures approx 40" in length.`,
+        image: 'vvgsvssb.png', price: 2575, size: 'One Size', review: '', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Small Hourlgass Top Handle Bag', designerId: 20, categoryId: 3,
+        description: `Croc embossed calf leather with leather lining and antique gold-tone hardware.
+        Made in Italy.
+        Measures approx 9"W x 5.5"H x 4"D.
+        Top handles measures approx 10.5" in length with a 4" drop.`,
+        image: 'bshthb.png', price: 2150, size: 'One Size', review: '', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Medium Chain Shoulder Pouch', designerId: 21, categoryId: 3,
+        description: `Nappa leather exterior and lining with polished gold-tone hardware.
+        Made in Italy.
+        Measures approx 12"W x 4.5"H x 6.5"D.
+        Hinged frame top closure with magnetic fastening.
+        Square cable chain shoulder strap.`,
+        image: 'bvmcsp.png', price: 3600, size: 'One Size', review: '', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Medium Sunset Chain Bag', designerId: 9, categoryId: 3,
+        description: `Suede & leather with lining and antique gold-tone hardware.
+        Made in Italy.
+        Measures approx 8.5"W x 6"H x 3"D.
+        Convertible strap is approx 44" in l with a 21" drop.
+        Fold-over flap top closure with magnetic button fastening.`,
+        image: 'slmscb.png', price: 2390, size: 'One Size', review: '', createdAt: new Date(), updatedAt: new Date()
+      },
     ], {});
   },
 
