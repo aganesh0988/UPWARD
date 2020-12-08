@@ -7,9 +7,9 @@ const host = db.host;
 
 module.exports = {
   development: {
-    username,
-    password,
-    database,
+    username: 'upward_app',
+    password: 'password',
+    database: 'upward_database',
     host,
     dialect: 'postgres',
     seederStorage: 'sequelize',
