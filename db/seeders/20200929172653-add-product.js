@@ -111,7 +111,17 @@ module.exports = {
         Hidden back zip closure.
         Semi sheer.`,
         image: 'alexperryhd.png', price: 1600, size: '0 | 2', review: '', createdAt: new Date(), updatedAt: new Date()
-      }
+      },
+      {
+        name: 'Long Sleeve Slit Dress', designerId: 9, categoryId: 5,
+        description: `Self & Lining: 100% silk.
+        Made in France.
+        Dry clean only.
+        Partially lined.
+        Wrap around front with side tie closure.
+        Sleeve tie detail.`,
+        image: 'sllssd.png', price: 3290, size: '34 | 36 | 38 | 40', review: 'cute!', createdAt: new Date(), updatedAt: new Date()
+      },
     ], {});
   },
 
