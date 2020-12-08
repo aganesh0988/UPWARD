@@ -28,6 +28,7 @@ html,body{
 }
 
 .navigation-container>*:hover{
+  transition: 0.3s;
   color: hotpink;
   font-weight: 900;
 }
@@ -88,5 +89,6 @@ a.footer-container__elements-icons:link{
 }
 
 a.footer-container__elements-icons:hover{
+  transition: 0.3s;
   color: hotpink;
 }

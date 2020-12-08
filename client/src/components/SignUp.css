@@ -55,6 +55,7 @@ button.btn.btn-primary{
 }
 
 button.btn.btn-primary:hover{
+  transition: 0.3s;
   cursor: pointer;
   color: hotpink;
   background-color: white;
@@ -71,6 +72,7 @@ a.btn.btn-link:visited:link:active{
   text-decoration: none;
 }
 a.btn.btn-link:hover{
+  transition: 0.3s;
   cursor: pointer;
   color:hotpink;
   text-decoration: none;

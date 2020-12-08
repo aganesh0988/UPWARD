@@ -92,6 +92,7 @@
 }
 
 .categories-side-panel__category>*:hover{
+  transition: 0.3s;
   cursor: pointer;
   color: hotpink;
 }
