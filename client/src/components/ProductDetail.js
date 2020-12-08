@@ -21,7 +21,7 @@ class ProductDetail extends Component {
 
     async loadProduct() {
         const id = this.props.match.params.id;
-        const response = await fetch(`/api/products/${id}`);
+        const response = await fetch(`/api/products/detail/${id}`);
         if (response.ok) {
             this.setState({
                 product: await response.json(),

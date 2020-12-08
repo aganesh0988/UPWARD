@@ -1,8 +1,12 @@
 import React from 'react';
+import ProductDetail from "./ProductDetail";
 
 
 
 const ProductsDisplayed = (props) => {
+
+
+
   const { product } = props;
   return (
     <div className='product-img-wrapper'>

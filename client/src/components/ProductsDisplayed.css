@@ -85,10 +85,11 @@
   color: black;
   font-family: sans-serif;
   margin-top: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   text-transform: uppercase;
   font-weight: 550;
   letter-spacing: 1px;
+  font-size: 14px;
 }
 
 .categories-side-panel__category>*:hover{
