@@ -122,6 +122,79 @@ module.exports = {
         Sleeve tie detail.`,
         image: 'sllssd.png', price: 3290, size: '34 | 36 | 38 | 40', review: 'cute!', createdAt: new Date(), updatedAt: new Date()
       },
+      {
+        name: 'Barocco Bath Robe', designerId: 11, categoryId: 1,
+        description: `Self, Trim 1 & 2: 100% cotton.
+        Made in Italy.
+        Machine wash.
+        Open front.
+        Front patch pockets.
+        Logo devore fabric.
+        Detachable belt with Barocco print details on the sleeves.`,
+        image: 'vbbr.png', price: 595, size: 's | m | l | xl', review: '', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Jet Infinity Jumpsuit', designerId: 18, categoryId: 2,
+        description: `85% polyamide, 15% lycra.
+        Made in USA.
+        Machine wash.
+        Lattice elastic strap back detail.
+        Shiny coated finish.
+        Stretch fit.`,
+        image: 'kjij.png', price: 145, size: 'xs | s | m | l | xl', review: '', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Luca Infinity Long Sleeve Crop Top', designerId: 18, categoryId: 2,
+        description: `85% polyamide, 15% lycra.
+        Made in USA.
+        Machine wash.
+        Shiny coated finish.
+        Logo label detail at hem.
+        Stretch fit.`,
+        image: 'klilsct.png', price: 88, size: 'xs | s | m | l | xl', review: '', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Lustrous High Rise Legging', designerId: 18, categoryId: 2,
+        description: `85% polyamide, 15% lycra.
+        Made in USA.
+        Machine wash.
+        Elastic waistband.
+        Interior waistband slit pocket.
+        Shiny coated finish.
+        Stretch fit.`,
+        image: 'klhrl.png', price: 88, size: 'xxs | xs | s | m | l', review: '', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Low Back Fara Slip Catsuit', designerId: 19, categoryId: 7,
+        description: `80% nylon, 20% spandex.
+        Made in China.
+        Machine wash.
+        Stretch fit.`,
+        image: 'nklbfsc.png', price: 175, size: 'xs | s | m | l | xl', review: '', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Short High Waist Buttoned Knit Skirt', designerId: 2, categoryId: 11,
+        description: `88% viscose, 12% polyamide.
+        Made in France.
+        Dry clean only.
+        Unlined.
+        Heavyweight bandage knit fabric.
+        Signature embossed button on front.
+        Faux welt front detail.
+        Exposed back zip closure.`,
+        image: 'bshwbks.png', price: 945, size: '34 | 36 | 38 | 40', review: '', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Long Sleeve Turtleneck Fishtail Dress', designerId: 19, categoryId: 5,
+        description: `95% poly, 5% spandex.
+        Made in China.
+        Hand wash.
+        Unlined.
+        Hidden back zip closure.
+        Jersey fabric.
+        Raw cut hem.`,
+        image: 'nklstfd.png', price: 245, size: 'xs | s | m | l', review: '', createdAt: new Date(), updatedAt: new Date()
+      },
     ], {});
   },
 

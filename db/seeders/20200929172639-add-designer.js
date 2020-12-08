@@ -20,6 +20,8 @@ module.exports = {
       { name: 'Alexis', createdAt: new Date(), updatedAt: new Date() },
       { name: 'Alex Perry', createdAt: new Date(), updatedAt: new Date() },
       { name: 'Alexander Vauthier', createdAt: new Date(), updatedAt: new Date() },
+      { name: 'Koral', createdAt: new Date(), updatedAt: new Date() },
+      { name: 'Norma Kamali', createdAt: new Date(), updatedAt: new Date() },
     ], {});
   },
 
