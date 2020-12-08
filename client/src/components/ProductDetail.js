@@ -1,51 +1,55 @@
 import React, { Component } from 'react';
+import { connect } from "react-redux";
+import { getOneProduct } from '../store/products';
 
 class ProductDetail extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
+    constructor() {
+        super()
+        this.state = {
+            products: []
+        }
     }
 
-    async componentDidMount() {
-        await this.loadProduct();
+
+    componentDidMount() {
+        this.props.getOneProduct(this.props.match.params.id);
     }
 
-    async componentDidUpdate(oldProps) {
-        const oldId = Number.parseInt(oldProps.match.params.id);
-        const newId = Number.parseInt(this.props.match.params.id);
+    componentDidUpdate(oldProps) {
+        const oldId = oldProps.match.params.id;
+        const newId = this.props.match.params.id;
         if (oldId === newId) {
             return;
         }
-        await this.loadProduct();
+        this.props.getOneProduct(newId);
     }
 
-    async loadProduct() {
-        const id = this.props.match.params.id;
-        const response = await fetch(`/api/products/detail/${id}`);
-        if (response.ok) {
-            this.setState({
-                product: await response.json(),
-            });
-        }
-    }
 
     render() {
-        const product = this.state.product;
-        if (!product) {
-            return null;
-        }
+        // const product = this.state.product;
+        // if (!product) {
+        //     return null;
+        // }
         return (
             <div className="product-detail">
-                <div className={`product-detail-image-background`}
-                    style={{ backgroundImage: `url('/images/${product.type}.jpg')` }}>
-                    <div className="product-detail-image"
-                        style={{ backgroundImage: `url('${product.imageUrl}')` }}>
-                    </div>
-                    <h1 className="bigger">{product.name}</h1>
-                </div>
+                <h1>Hello HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello</h1>
+                <h1>Hello</h1>
+                <h1>Hello</h1>
             </div>
         )
     }
 }
 
-export default ProductDetail;
+const mapStateToProps = (state) => {
+    return {
+        products: state.products,
+    };
+};
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        getOneProduct: (id) => dispatch(getOneProduct(id)),
+    };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(ProductDetail);

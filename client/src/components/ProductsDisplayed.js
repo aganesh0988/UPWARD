@@ -1,12 +1,20 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 
 
 const ProductsDisplayed = (props) => {
   const { product } = props;
+
+  let history = useHistory()
+
+  const productHandle = () => {
+    history.push(`products/detail/${product.id}`)
+  }
+
   return (
     <div className='product-img-wrapper'>
-      <div className='product-img-container'>
+      <div className='product-img-container' onClick={productHandle}>
         <div
           alt={product.name}
           className='product-img-img'
