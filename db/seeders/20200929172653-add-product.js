@@ -292,7 +292,7 @@ module.exports = {
         image: 'apcb.png', price: 2600, size: 'US 2 / UK 6', review: 'cute!', createdAt: new Date(), updatedAt: new Date()
       },
       {
-        name: 'Carlton Blazer', designerId: 16, categoryId: 6,
+        name: 'Alex Blazer', designerId: 16, categoryId: 6,
         description: `Self: 63% poly, 37% acetate.
         Lining: 82% tri-acetate 18% poly.
         Made in China.
