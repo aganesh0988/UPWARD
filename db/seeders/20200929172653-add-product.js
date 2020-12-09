@@ -237,6 +237,95 @@ module.exports = {
         Fold-over flap top closure with magnetic button fastening.`,
         image: 'slmscb.png', price: 2390, size: 'One Size', review: '', createdAt: new Date(), updatedAt: new Date()
       },
+      {
+        name: 'Lema Dress', designerId: 1, categoryId: 4,
+        description: `98% cotton, 2% elastan.
+        Made in Italy.
+        Machine wash.
+        Unlined.
+        Button front closures.
+        Breast flap pockets with button closures.`,
+        image: 'rld.png', price: 450, size: 'xs | s | m | l', review: 'cute!', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Willa Dress', designerId: 1, categoryId: 4,
+        description: `98% cotton, 2% elastan.
+        Made in Italy.
+        Machine wash.
+        Unlined.
+        Snap button front closures.
+        Padded shoulders.`,
+        image: 'rwd.png', price: 450, size: 'xs | s | m | l', review: 'cute!', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Glendale Skinny', designerId: 22, categoryId: 4,
+        description: `95% cotton, 4% poly, 1% spandex.
+        Made in Japan.
+        Machine wash.
+        Zip fly with button fastening.
+        5-pocket design.
+        Whiskering along front.
+        Heavily faded and distressed throughout.`,
+        image: 'mvgs.png', price: 350, size: '24 | 25 | 26 | 27 | 28', review: 'cute!', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Creston Tapered Skinny', designerId: 22, categoryId: 4,
+        description: `100% cotton.
+        Made in Japan.
+        Machine wash.
+        Button fly.
+        Whiskering and fading detail along front.
+        Distressed fabric detail throughout.`,
+        image: 'mscts.png', price: 350, size: '24 | 25 | 26 | 27 | 28', review: 'cute!', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Carlton Blazer', designerId: 16, categoryId: 6,
+        description: `Self: 75% cotton, 25% silk.
+        Lining: 93% poly 7% elastan.
+        Made in China.
+        Dry clean only.
+        Button front closures.
+        Breast welt pocket.
+        Front flap pockets.
+        Back vent detail.
+        Padded shoulders.`,
+        image: 'apcb.png', price: 2600, size: 'US 2 / UK 6', review: 'cute!', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Carlton Blazer', designerId: 16, categoryId: 6,
+        description: `Self: 63% poly, 37% acetate.
+        Lining: 82% tri-acetate 18% poly.
+        Made in China.
+        Dry clean only.
+        Button front closures.
+        Breast welt pocket.
+        Front flap pockets.
+        Padded shoulders.`,
+        image: 'apab.png', price: 2200, size: 'US 0 / UK 4 | US 2 / UK 6', review: 'cute!', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Button Jacket', designerId: 9, categoryId: 6,
+        description: `Self: 90% wool, 10% cashmere.
+        Lining: 60% cupro 40% cotton.
+        Made in Italy.
+        Dry clean only.
+        Front button closures.
+        Chest patch pockets with button closure.
+        Interior breast pocket.`,
+        image: 'slbj.png', price: 2690, size: '34 | 36 | 38', review: 'cute!', createdAt: new Date(), updatedAt: new Date()
+      },
+      {
+        name: 'Suit Jacket', designerId: 9, categoryId: 6,
+        description: `Self: 52% wool, 37% viscose, 11% metallized fibers.
+        Lining: 100% silk.
+        Pocket Lining: 100% cotton.
+        Made in Italy.
+        Dry clean only.
+        Button front closures.
+        Chest welt pocket.
+        Front flap pockets.`,
+        image: 'slsj.png', price: 2990, size: '46 | 48 | 50', review: 'cute!', createdAt: new Date(), updatedAt: new Date()
+      },
     ], {});
   },
 

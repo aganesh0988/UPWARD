@@ -24,6 +24,7 @@ module.exports = {
       { name: 'Norma Kamali', createdAt: new Date(), updatedAt: new Date() },
       { name: 'Balenciaga', createdAt: new Date(), updatedAt: new Date() },
       { name: 'Bottega Veneta', createdAt: new Date(), updatedAt: new Date() },
+      { name: 'Moussy Vintage', createdAt: new Date(), updatedAt: new Date() },
     ], {});
   },
 
