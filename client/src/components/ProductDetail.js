@@ -26,10 +26,11 @@ const ProductDetail = () => {
     return (
         <>
             <div className="productDetail-wrapper">
-                <div>{product.imgage}</div>
+                <div className="productDetail-image-wrapper">
+                    <img className="productDetail-image" alt={product.image} src={`/images/${product.image}`}></img>
+                </div>
                 <h1 className="ProductDetail-name">
                     <div className="ProductDetail-name-name-main">{product.name}</div>
-
                 </h1>
             </div>
 
