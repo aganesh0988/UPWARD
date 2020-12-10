@@ -13,9 +13,10 @@ router.get('/', asyncHandler(async function (_req, res) {
 }));
 
 router.get('/detail/:id', asyncHandler(async function (req, res) {
-  console.log("BACCCKKKKK")
-  const productDetail = await Product.one(req.params.id);
-  console.log("BACCCKKKKK", productDetail)
+  console.log("BACCCKKKKK1")
+  console.log("BACCCKKKKK2", Product)
+  console.log("REQPARAMMMMMMMM", req.params.id)
+  const productDetail = await Product.findByPk(req.params.id);
   res.json(productDetail);
 }));
 

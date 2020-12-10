@@ -8,8 +8,6 @@ const ProductDetail = () => {
     const idString = history.location.pathname.split('/')[3]
     const id = parseInt(idString, 10)
 
-    console.log("IIIDDDDDD", idString)
-
 
     const [product, setProduct] = useState(id);
 
@@ -19,7 +17,9 @@ const ProductDetail = () => {
             const response = await fetch(`/api/products/detail/${id}`)
             const data = await response.json();
 
-            setProduct(data.product);
+            console.log("RREESSSSPPOONNSSEEE", data)
+
+            setProduct(data);
         }
         getProduct()
     }, [id])
@@ -28,7 +28,7 @@ const ProductDetail = () => {
     return (
         <>
             <h1 className="ProductDetail-name">
-                {/* <div className="ProductDetail-name-name-main">{product.name}</div> */}
+                <div className="ProductDetail-name-name-main">{product.name}</div>
 
             </h1>
             <h1>Hello</h1>
@@ -92,14 +92,15 @@ export default ProductDetail;
 
 
 //     render() {
-//         // const product = this.state.product;
-//         // if (!product) {
-//         //     return null;
-//         // }
+//         console.log("STTTAATTT", this.state.products)
+//         const product = this.state.products;
+//         if (!product) {
+//             return null;
+//         }
 //         return (
 //             <div className="product-detail">
 //                 <h1>Hello HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello</h1>
-//                 <h1>Hello</h1>
+//                 {/* <h1>{product.name}</h1> */}
 //                 <h1>Hello</h1>
 //             </div>
 //         )
