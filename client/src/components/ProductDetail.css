@@ -1,15 +1,16 @@
 .productDetail-wrapper{
     display: flex;
+    overflow-y: scroll;
 }
 
 .productDetail-image-wrapper{
     width: 50%;
-    height: auto;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
 
 .productDetail-image{
     width: 50%;
-    /* margin-left: 25%; */
+    margin: 30px 0 70px 0;
 }
