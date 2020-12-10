@@ -2,7 +2,6 @@ import React from 'react';
 import { useHistory } from 'react-router-dom';
 
 
-
 const ProductsDisplayed = (props) => {
   const { product } = props;
 
