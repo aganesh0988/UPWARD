@@ -73,6 +73,6 @@ a.btn.btn-link:visited:link:active{
 a.btn.btn-link:hover{
   transition: 0.3s;
   cursor: pointer;
-  color:hotpink;
+  color:black;
   text-decoration: none;
 }
