@@ -32,9 +32,12 @@ const ProductDetail = () => {
                 <div className="productDetail-info-wrapper">
                     <div className="productDetail-info-container">
                         <h1 className="productDetail-name">{product.name}</h1>
+                        <div className="productDetail-descriptiondes">Description</div>
                         <div className="productDetail-description">{product.description}</div>
+                        <div className="productDetail-sizesavail">Available sizes</div>
                         <div className="productDetail-sizes">{product.size}</div>
-                        <div className="productDetail-price">{product.price}</div>
+                        <div className="productDetail-pricepr">Price</div>
+                        <div className="productDetail-price">${product.price}</div>
                     </div>
                 </div>
             </div>

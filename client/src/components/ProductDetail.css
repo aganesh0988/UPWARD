@@ -32,6 +32,33 @@
 }
 
 .productDetail-info-wrapper>*{
-    margin-left: 50px;
-    margin-right: 100px;
+    margin: 30px 100px 0 50px;
+}
+
+.productDetail-name{
+    margin-bottom: 30px;
+}
+
+.productDetail-descriptiondes{
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.productDetail-description{
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.productDetail-sizesavail{
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.productDetail-sizes{
+    margin-bottom: 30px;
+}
+
+.productDetail-pricepr{
+    font-weight: 700;
+    margin-bottom: 7px;
 }
