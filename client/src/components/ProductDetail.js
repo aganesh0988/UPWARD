@@ -17,8 +17,6 @@ const ProductDetail = () => {
             const response = await fetch(`/api/products/detail/${id}`)
             const data = await response.json();
 
-            console.log("RREESSSSPPOONNSSEEE", data)
-
             setProduct(data);
         }
         getProduct()
@@ -27,10 +25,14 @@ const ProductDetail = () => {
 
     return (
         <>
-            <h1 className="ProductDetail-name">
-                <div className="ProductDetail-name-name-main">{product.name}</div>
+            <div className="productDetail-wrapper">
+                <div>{product.imgage}</div>
+                <h1 className="ProductDetail-name">
+                    <div className="ProductDetail-name-name-main">{product.name}</div>
 
-            </h1>
+                </h1>
+            </div>
+
             <h1>Hello</h1>
             <h1>Hello</h1>
             <h1>Hello</h1>
