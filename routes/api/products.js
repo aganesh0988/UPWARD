@@ -12,8 +12,10 @@ router.get('/', asyncHandler(async function (_req, res) {
   res.json(product);
 }));
 
-router.get('/detail/', asyncHandler(async function (req, res) {
+router.get('/detail/:id', asyncHandler(async function (req, res) {
+  console.log("BACCCKKKKK")
   const productDetail = await Product.one(req.params.id);
+  console.log("BACCCKKKKK", productDetail)
   res.json(productDetail);
 }));
 
