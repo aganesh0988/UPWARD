@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-
 import { useHistory } from 'react-router-dom'
+import "./ProductDetail.css"
 
 
 const ProductDetail = () => {
@@ -34,19 +34,6 @@ const ProductDetail = () => {
                     <div className="productDetail-description">{product.description}</div>
                     <div className="productDetail-sizes">{product.size}</div>
                     <div className="productDetail-price">{product.price}</div>
-                </div>
-            </div>
-
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-
-            <div className='ProductDetail-img-text-wrapper'>
-                <div className='ProductDetail-name-img-wrapper'>
-                    {/* <img alt={product.name} className='ProductDetail-name-img-img' src={`/images/${product.img}`}></img> */}
                 </div>
             </div>
         </>

@@ -1,0 +1,15 @@
+.productDetail-wrapper{
+    display: flex;
+}
+
+.productDetail-image-wrapper{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.productDetail-image{
+    width: 50%;
+    /* margin-left: 25%; */
+}
