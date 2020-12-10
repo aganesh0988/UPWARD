@@ -24,7 +24,6 @@ width: 30%;
 form.signup-form{
   display: flex;
   flex-direction: column;
-  width: 50%;
   height: 50%;
   /* justify-content: space-between;
   align-content: space-between; */
