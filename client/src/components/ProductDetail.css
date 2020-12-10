@@ -1,10 +1,11 @@
 .productDetail-wrapper{
     display: flex;
     overflow-y: scroll;
+    width: 100%;
 }
 
 .productDetail-image-wrapper{
-    width: 60%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -16,10 +17,18 @@
 }
 
 .productDetail-info-wrapper{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+}
+
+.productDetail-info-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .productDetail-info-wrapper>*{
