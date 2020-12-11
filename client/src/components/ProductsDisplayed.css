@@ -11,6 +11,10 @@
   margin-bottom: 40px;
 }
 
+.product-img-wrapper:hover{
+  cursor: pointer;
+}
+
 
 
 .product-img-container{
