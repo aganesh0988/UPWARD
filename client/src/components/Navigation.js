@@ -8,16 +8,16 @@ const Navigation = props => {
   const [input, setInput] = useState('')
   const [options, setOptions] = useState()
 
-  const handleSearch = async (e) => {
-    setInput(e.target.value)
-    setOptions([])
-    const searchStr = e.target.value;
-    const data = await fetch(`/api/home/search/${searchStr}`)
-    if (data.ok) {
-      const dealerList = await data.json()
-      setOptions(dealerList.dealerships)
-    }
-  }
+  // const handleSearch = async (e) => {
+  //   setInput(e.target.value)
+  //   setOptions([])
+  //   const searchStr = e.target.value;
+  //   const data = await fetch(`/api/home/search/${searchStr}`)
+  //   if (data.ok) {
+  //     const dealerList = await data.json()
+  //     setOptions(dealerList.dealerships)
+  //   }
+  // }
 
   return (
     <>
