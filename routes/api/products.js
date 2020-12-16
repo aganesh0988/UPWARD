@@ -1,6 +1,7 @@
 const express = require('express');
 const asyncHandler = require('express-async-handler');
 const router = express.Router();
+const { Op } = require('sequelize')
 
 const { Product, Designer, Category } = require('../../db/models');
 
@@ -25,7 +26,12 @@ router.get('/detail/:id', asyncHandler(async function (req, res) {
 
 
 // router.get('/search/<search_string>', asyncHandler(async function (req, res) {
-//   const searchProduct = await Product.
+//   const searchProduct = await Product.findAll({
+//     where: {
+//       [Op.iLike]: 'search_string'
+//     }
+//   })
+//   res.json(searchProduct)
 // }))
 
 module.exports = router;
