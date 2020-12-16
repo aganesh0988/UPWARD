@@ -23,4 +23,9 @@ router.get('/detail/:id', asyncHandler(async function (req, res) {
 //         Dealership.name.ilike(f'%{search_string}%')).limit(15)
 //     return jsonify({'dealerships': [dealership.to_dict() for dealership in response]})
 
+
+// router.get('/search/<search_string>', asyncHandler(async function (req, res) {
+//   const searchProduct = await Product.
+// }))
+
 module.exports = router;
