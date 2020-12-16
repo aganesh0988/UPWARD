@@ -17,4 +17,10 @@ router.get('/detail/:id', asyncHandler(async function (req, res) {
   res.json(productDetail);
 }));
 
+// @bp.route('/search/<search_string>', methods = ["GET"])
+// def search_route(search_string):
+//     response = Dealership.query.filter(
+//         Dealership.name.ilike(f'%{search_string}%')).limit(15)
+//     return jsonify({'dealerships': [dealership.to_dict() for dealership in response]})
+
 module.exports = router;
