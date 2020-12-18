@@ -14,8 +14,8 @@ const Navigation = props => {
     const searchStr = e.target.value;
     const data = await fetch(`/api/products/search/${searchStr}`)
     if (data.ok) {
-      const dealerList = await data.json()
-      setOptions(dealerList.dealerships)
+      const productsList = await data.json()
+      setOptions(productsList.products)
     }
   }
 
