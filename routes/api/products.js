@@ -25,13 +25,16 @@ router.get('/detail/:id', asyncHandler(async function (req, res) {
 //     return jsonify({'dealerships': [dealership.to_dict() for dealership in response]})
 
 
-// router.get('/search/<search_string>', asyncHandler(async function (req, res) {
-//   const searchProduct = await Product.findAll({
-//     where: {
-//       [Op.iLike]: 'search_string'
-//     }
-//   })
-//   res.json(searchProduct)
-// }))
+router.get('/search/<search_string>', asyncHandler(async function (req, res) {
+  const searchProduct = await Product.findAll({
+    where: {
+      name: {
+        [Op.iLike]: 'search_string'
+
+      }
+    }
+  })
+  res.json(searchProduct)
+}))
 
 module.exports = router;
