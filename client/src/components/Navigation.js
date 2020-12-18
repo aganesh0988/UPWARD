@@ -35,7 +35,7 @@ const Navigation = props => {
           <div className="navlink-container__search-choices">
             {options ? options.map(option =>
               <div className="navlink-container__search-choices-div" key={option.id}>
-                <a className="navlink-container__search-options" href={`/dealership/${option.id}`}>{option.name}</a>
+                <a className="navlink-container__search-options" href={`/products/detail/${option.id}`}>{option.name}</a>
               </div>
             ) : null}
           </div>
