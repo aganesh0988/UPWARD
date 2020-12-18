@@ -27,7 +27,6 @@ const Navigation = props => {
             alt='UpwardLogo'
             className='UpwardLogo' src='/images/UPWARDLogo.jpg' />
         </a>
-        <NavLink to="/" activeClassName="active">PRODUCTS</NavLink>
         <div className="navlink-container__search">
           <div className="navlink-container__search-input">
             <input type="search" onChange={handleSearch} value={input} placeholder="Search" autoComplete="off"></input>
@@ -40,6 +39,7 @@ const Navigation = props => {
             ) : null}
           </div>
         </div>
+        <NavLink to="/" activeClassName="active">PRODUCTS</NavLink>
         <NavLink to='/categories' activeClassName="active">CATEGORIES</NavLink>
         <NavLink to="/login" activeClassName="active">LOG IN</NavLink>
         <NavLink to="/signup" activeClassName="active">SIGN UP</NavLink>
