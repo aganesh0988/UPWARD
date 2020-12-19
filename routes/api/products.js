@@ -25,13 +25,13 @@ router.get('/detail/:id', asyncHandler(async function (req, res) {
 //     return jsonify({'dealerships': [dealership.to_dict() for dealership in response]})
 
 
-router.get('/search/<search_string>', asyncHandler(async function (req, res) {
+router.get('/search/:searchString', asyncHandler(async function (req, res) {
   console.log("OPPP", { Op })
   const searchProduct = await Product.findAll({
     where: {
       name: {
         // [Op.or]: [].concat(req.query.name)
-        [Op.iLike]: `${search_string}`
+        [Op.iLike]: `${searchString}`
       }
     }
   })
