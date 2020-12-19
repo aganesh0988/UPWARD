@@ -26,11 +26,14 @@ router.get('/detail/:id', asyncHandler(async function (req, res) {
 
 
 router.get('/search/:searchString', asyncHandler(async function (req, res) {
+  const { term } = req.query;
+  console.log("TTERRRRMM", term)
   const searchProduct = await Product.findAll({
     where: {
       name: {
         // [Op.or]: [].concat(req.query.name)
-        [Op.iLike]: 'searchString'
+        [Op.iLike]: '%' + 'searchString' + '%'
+        // 'searchString'
       }
     }
   })
