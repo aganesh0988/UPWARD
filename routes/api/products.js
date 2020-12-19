@@ -27,7 +27,7 @@ router.get('/detail/:id', asyncHandler(async function (req, res) {
 
 router.get('/search/:searchString', asyncHandler(async function (req, res) {
   const { term } = req.query;
-  console.log("TTERRRRMM", term)
+  console.log("TTERRRRMM", req.params)
   const searchProduct = await Product.findAll({
     where: {
       name: {
