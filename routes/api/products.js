@@ -32,7 +32,7 @@ router.get('/search/:searchString', asyncHandler(async function (req, res) {
     where: {
       name: {
         // [Op.or]: [].concat(req.query.name)
-        [Op.iLike]: '%' + 'searchString' + '%'
+        [Op.iLike]: '%' + req.params + '%'
         // 'searchString'
       }
     }
