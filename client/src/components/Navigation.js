@@ -16,6 +16,7 @@ const Navigation = props => {
     console.log("DATTTAAAA", data)
     if (data.ok) {
       const productsList = await data.json()
+      console.log("PRODUCTS LIST", productsList)
       setOptions(productsList.products)
     }
   }
