@@ -1,5 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
+import ProductDetail from './ProductDetail';
 
 
 const ProductsDisplayed = (props) => {
@@ -8,7 +9,8 @@ const ProductsDisplayed = (props) => {
   let history = useHistory()
 
   const productHandle = () => {
-    history.push(`products/detail/${product.id}`)
+    history.push(`products/detail/${product.id}`);
+    return <ProductDetail />
   }
 
   return (
