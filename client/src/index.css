@@ -106,6 +106,10 @@ a.footer-container__elements-icons:hover{
   background-color: white;
   position: absolute;
 }
+.navlink-container__search-choices-div{
+  margin: 5px;
+  background-color:white;
+}
 .navlink-container__search-choices-div>a:link, a:visited, a:active{
   text-decoration: none;
   color: black;
