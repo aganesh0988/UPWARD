@@ -24,7 +24,7 @@ function App() {
                 <Route path="/login" component={LoginPanel}></Route>
                 <Route path="/signup" component={SignUp}></Route>
                 <Route path="/products/detail/:id" exact={true} component={ProductDetail} />
-                <Route path="/products/:categoryId" component={Products}></Route>
+                <Route path="/products/:categoryId" exact={true} component={Products}></Route>
                 <Route path='/categories' component={Categories}></Route>
                 <Route path="/" exact={true} component={Products}></Route>
             </Switch>
