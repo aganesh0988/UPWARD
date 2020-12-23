@@ -73,23 +73,25 @@ header > *{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .footer-container__elements>a>h5{
   margin: 5px 10px;
+  color: white;
 }
 
-a.footer-container__elements-icons{
+a.footer-container__elements-icons>*{
   margin: 0 10px;
   text-decoration: none;
-  color: white;
+  color: white
 }
 
 a.footer-container__elements-icons:link{
   text-decoration: none;
 }
 
-a.footer-container__elements-icons:hover{
+a.footer-container__elements-icons>*:hover{
   transition: 0.3s;
   color: hotpink;
 }
