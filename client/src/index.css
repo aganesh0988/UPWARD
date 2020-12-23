@@ -114,3 +114,11 @@ a.footer-container__elements-icons:hover{
   text-decoration: none;
   color: black;
 }
+.navlink-container__search-options{
+  background-color: white;
+  margin-top: 20px;
+}
+.navlink-container__search-options:hover{
+  color: hotpink;
+  transition: 0.3s;
+}
