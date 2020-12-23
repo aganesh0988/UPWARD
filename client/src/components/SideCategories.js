@@ -6,7 +6,7 @@ const SideCategories = (props) => {
   const path = `/products/${category.id}`;
   return (
     <div className='categories-side-panel__category'>
-      <NavLink to={path} activeClassName="active">{category.name}</NavLink>
+      <NavLink to={path} exact={true} activeClassName="active">{category.name}</NavLink>
     </div>
   )
 }
