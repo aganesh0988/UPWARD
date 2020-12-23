@@ -2,7 +2,7 @@ import React from 'react';
 import { getCategories } from '../store/categories';
 import { connect } from "react-redux";
 import SideCategories from './SideCategories';
-//import './ProductsDisplayed.css';// need to change
+import ProductDetail from './ProductDetail';
 
 
 class Categories extends React.Component {
