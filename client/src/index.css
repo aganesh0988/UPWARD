@@ -93,3 +93,16 @@ a.footer-container__elements-icons:hover{
   transition: 0.3s;
   color: hotpink;
 }
+
+.navlink-container__search{
+  background-color: black;
+  display: block;
+}
+.navlink-container__search-input{
+  display: block;
+  position: static;
+}
+
+.navlink-container__search-choices{
+  position: absolute;
+}
