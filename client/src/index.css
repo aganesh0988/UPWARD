@@ -102,7 +102,11 @@ a.footer-container__elements-icons:hover{
   display: block;
   position: static;
 }
-
 .navlink-container__search-choices{
+  background-color: white;
   position: absolute;
+}
+.navlink-container__search-choices-div>a:link, a:visited, a:active{
+  text-decoration: none;
+  color: black;
 }
