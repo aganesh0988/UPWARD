@@ -8,7 +8,7 @@ const { Product, Designer, Category } = require('../../db/models');
 
 router.get('/', asyncHandler(async function (_req, res) {
   const category = await Category.findAll(
-    //{ include: [Designer, Product] }
+    // { include: [Designer, Product] }
   );
   res.json(category);
 }));

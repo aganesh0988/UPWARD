@@ -15,9 +15,13 @@ const ProductDetail = () => {
 
         async function getProduct() {
             const response = await fetch(`/api/products/detail/${id}`)
-            const data = await response.json();
 
-            setProduct(data);
+            if (response.ok) {
+                const data = await response.json();
+                history.push(`/products/detail/${id}`);
+                setProduct(data);
+            }
+
         }
         getProduct()
     }, [id])
