@@ -18,16 +18,9 @@ router.get('/detail/:id', asyncHandler(async function (req, res) {
   res.json(productDetail);
 }));
 
-// @bp.route('/search/<search_string>', methods = ["GET"])
-// def search_route(search_string):
-//     response = Dealership.query.filter(
-//         Dealership.name.ilike(f'%{search_string}%')).limit(15)
-//     return jsonify({'dealerships': [dealership.to_dict() for dealership in response]})
-
 
 router.get('/search/:searchString', asyncHandler(async function (req, res) {
   const { term } = req.query;
-  console.log("TTERRRRMM", req.params)
   const searchProduct = await Product.findAll({
     where: {
       name: {
