@@ -20,7 +20,7 @@ const ProductDetail = () => {
 
             if (response.ok) {
                 const data = await response.json();
-                history.push(`/products/detail/${id}`);
+                // history.push(`/products/detail/${id}`);
                 setProduct(data);
             }
 
