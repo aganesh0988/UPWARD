@@ -30,7 +30,6 @@ router.get('/search/:searchString', asyncHandler(async function (req, res) {
       }
     }
   })
-  console.log("OPPP", searchProduct)
   res.json(searchProduct)
 }))
 
