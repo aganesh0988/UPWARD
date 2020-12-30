@@ -10,7 +10,9 @@ const ProductsDisplayed = (props) => {
 
   const productHandle = () => {
     history.push(`products/detail/${product.id}`);
-    console.log("historryyyyyyyyyyyy", history.location.pathname.split('/').pop())
+    let pathEnd = parseInt(history.location.pathname.split('/').pop(), 10)
+    // if(history.location.pathname.split('/').pop())
+    console.log("historryyyyyyyyyyyy", pathEnd)
     return <ProductDetail />
   }
 
