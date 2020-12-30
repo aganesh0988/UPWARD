@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { Redirect, useHistory } from 'react-router-dom';
 import ProductDetail from './ProductDetail';
 
 
@@ -11,8 +11,10 @@ const ProductsDisplayed = (props) => {
   const productHandle = () => {
     history.push(`products/detail/${product.id}`);
     let pathEnd = parseInt(history.location.pathname.split('/')[3], 10)
-    // if (pathEnd =)
-    console.log("historryyyyyyyyyyyy", pathEnd)
+    if (Number(pathEnd) !== pathEnd) {
+      return <Redirect exact to={`products/detail/${product.id}`} />
+    }
+    console.log("historryyyyyyyyyyyy", (Number(pathEnd) === pathEnd))
     return <ProductDetail />
   }
 
