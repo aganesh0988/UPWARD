@@ -3,7 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 const SideCategories = (props) => {
   const { category } = props;
-  const path = `/products/${category.id}`;
+  const path = `/${category.id}`;
+  console.log("sideCategories paht", path)
   return (
     <div className='categories-side-panel__category'>
       <NavLink to={path} exact={true} activeClassName="active">{category.name}</NavLink>
