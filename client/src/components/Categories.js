@@ -15,6 +15,7 @@ class Categories extends React.Component {
     const items = this.props.categories.map(category => {
       return <SideCategories key={category.name} category={category} />
     })
+    console.log("ITEMS IN CAT", items)
     return (
       <div className='categories-side-panel__category'>{items}</div>
     )
