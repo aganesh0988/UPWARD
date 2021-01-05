@@ -5,9 +5,7 @@ import "./ProductDetail.css"
 
 const ProductDetail = () => {
     const history = useHistory()
-    // const idString = history.location.pathname.split('/')[3]
     const idString = history.location.pathname.split('/').pop()
-    console.log("IIIDDDDSTTRRINNNggg", history.location.pathname.split('/').pop())
     const id = parseInt(idString, 10)
 
 
