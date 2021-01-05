@@ -14,7 +14,7 @@ const ProductsDisplayed = (props) => {
     if (Number(pathEnd) !== pathEnd) {
       return <Redirect exact to={`products/detail/${product.id}`} />
     }
-    console.log("historryyyyyyyyyyyy", (Number(pathEnd) === pathEnd))
+    console.log("historryyyyyyyyyyyy", (Number(pathEnd) === pathEnd), history.location.pathname)
     return <ProductDetail />
   }
 
