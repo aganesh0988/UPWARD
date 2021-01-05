@@ -28,7 +28,7 @@ router.get('/search/:searchString', asyncHandler(async function (req, res) {
         [Op.iLike]: '%' + req.params.searchString + '%'
         // 'searchString'
       }
-    }
+    }, limit: 5
   })
   res.json(searchProduct)
 }))
