@@ -89,10 +89,10 @@ Deployed with:
 
 # Contact
 
-GitHub Link: [https://github.com/aganesh0988/UPWARD](https://github.com/aganesh0988/UPWARD)
-
-Live Link: [https://upward-fwrd-clone.herokuapp.com/](https://upward-fwrd-clone.herokuapp.com/)
-
 Andrea Jackson - [@andrea-jackson1](https://www.linkedin.com/in/andrea-jackson1/) - andreajackson1109@gmail.com
 
 Portfolio: [https://andreagjackson.com/](https://andreagjackson.com/)
+
+GitHub Link: [https://github.com/aganesh0988/UPWARD](https://github.com/aganesh0988/UPWARD)
+
+Live Link: [https://upward-fwrd-clone.herokuapp.com/](https://upward-fwrd-clone.herokuapp.com/)
