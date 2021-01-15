@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://upward-fwrd-clone.herokuapp.com/">
+  <a target="_blank" href="https://upward-fwrd-clone.herokuapp.com/">
     <img src="client/public/images/UPWARDLogo.jpg" alt="UPWARDLogo" height="80">
   </a>
 </p>
@@ -10,7 +10,6 @@
 
 # Solo React Project
 
-This is the backend for the Solo React project.
 
 ## Getting started
 
