@@ -32,6 +32,11 @@ I used JavaScript and React / Redux for the frontend and Express for the backend
 * [Node.jss](https://nodejs.org/en/)
 * [PostgreSQL](https://www.postgresql.org/)
 
+<br />
+
+Deployed with:
+* [<img alt="Heroku icon" src="https://img.icons8.com/color/452/heroku.png" align="left" height="20">](https://www.heroku.com/) [Heroku](https://www.heroku.com/)
+
 
 <br/><br/><br/>
 
