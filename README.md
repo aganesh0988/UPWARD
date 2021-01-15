@@ -7,9 +7,15 @@
 <br/>
 
 # About The Project
-This app is a clone of one of my favorite e-commerce sites, FWRD, which carries primarily women's clothing and accessories! I used JavaScript and React / Redux for the frontend and Express for the backend. You can browse different products and click on one for bigger image and more information on the product.
+This app is a clone of one of my favorite e-commerce sites, FWRD, which carries primarily women's clothing and accessories! You can browse different products and click on one for bigger image and more information on the product.
+
+<br/>
+
+## Built With
+I used JavaScript and React / Redux for the frontend and Express for the backend.
 
 
+<br/><br/><br/>
 
 # Solo React Project
 
