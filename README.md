@@ -81,3 +81,16 @@ Deployed with:
 8. Add a `REACT_APP_BASE_URL` config var.  This should be the full URL of your react app: i.e. "https://solo-react.herokuapp.com"
 
 9. profit
+
+
+<br />
+
+-----------------------
+
+# Contact
+
+Andrea Jackson - [@andrea-jackson1](https://www.linkedin.com/in/andrea-jackson1/) - andreajackson1109@gmail.com
+
+Project Link: [https://github.com/aganesh0988/OpenExotics](https://github.com/aganesh0988/OpenExotics)
+
+Portfolio: [https://andreagjackson.com/](https://andreagjackson.com/)
