@@ -4,7 +4,10 @@
   </a>
 </p>
 
+<br/>
 
+# About The Project
+This app is a clone of one of my favorite e-commerce sites, FWRD, which carries primarily women's clothing and accessories! I used JavaScript and React / Redux for the frontend and Express for the backend. You can browse different products and click on one for bigger image and more information on the product.
 
 
 
