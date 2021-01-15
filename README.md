@@ -25,6 +25,14 @@ I used JavaScript and React / Redux for the frontend and Express for the backend
 <img align="left" height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png">
 
 
+<br />
+
+* [React](https://reactjs.org/)
+* [Express](https://expressjs.com/)
+* [Node.jss](https://nodejs.org/en/)
+* [PostgreSQL](https://www.postgresql.org/)
+
+
 <br/><br/><br/>
 
 # Solo React Project
