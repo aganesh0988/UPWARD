@@ -37,6 +37,10 @@ I used JavaScript and React / Redux for the frontend and Express for the backend
 Deployed with:
 * [<img alt="Heroku icon" src="https://img.icons8.com/color/452/heroku.png" align="left" height="20">](https://www.heroku.com/) [Heroku](https://www.heroku.com/)
 
+<br />
+
+
+![Home Page for UPWARD](client/public/images/ogtag.jpeg)
 
 <br/><br/><br/>
 
