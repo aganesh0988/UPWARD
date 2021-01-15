@@ -7,7 +7,7 @@
 <br/>
 
 # About The Project
-This app is a clone of one of my favorite e-commerce sites, FWRD, which carries primarily women's clothing and accessories! You can browse different products and click on one for bigger image and more information on the product.
+This app is a clone of one of my favorite e-commerce sites, FWRD, which primarily carries women's clothing and accessories! You can browse different products and click on one for bigger image and more information on the product.
 
 <br/>
 
