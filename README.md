@@ -106,3 +106,5 @@ Live Link: [https://upward-fwrd-clone.herokuapp.com/](https://upward-fwrd-clone.
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-pink.svg?style=for-the-badge&logo=linkedin&colorB=pink
 [linkedin-url]: https://www.linkedin.com/in/andrea-jackson1/
+[portfolio-shield]: https://img.shields.io/badge/-Portfolio-pink?style=for-the-badge&logo=pink
+[portfolio-url]:https://andreagjackson.com/
