@@ -99,3 +99,9 @@ Portfolio: [https://andreagjackson.com/](https://andreagjackson.com/)
 GitHub Link: [https://github.com/aganesh0988/UPWARD](https://github.com/aganesh0988/UPWARD)
 
 Live Link: [https://upward-fwrd-clone.herokuapp.com/](https://upward-fwrd-clone.herokuapp.com/)
+
+
+
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-pink.svg?style=for-the-badge&logo=linkedin&colorB=pink
+[linkedin-url]: https://www.linkedin.com/in/andrea-jackson1/
