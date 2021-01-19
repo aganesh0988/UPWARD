@@ -8,7 +8,7 @@
 
 <p align="center">
   <a target="_blank" href="https://upward-fwrd-clone.herokuapp.com/">
-    <img src="client/public/images/UPWARDLogo.jpg" alt="UPWARDLogo" height="160">
+    <img src="client/public/images/UPWARDLogo.jpg" alt="UPWARDLogo" height="140">
   </a>
 </p>
 
